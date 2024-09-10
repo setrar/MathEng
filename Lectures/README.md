@@ -1,5 +1,5 @@
 
-| | |
+| Lecture | |
 |:-|-|
 | 00  | [Introduction](00_Introduction.pdf)
 | 01a | [Signal_representation_and_system_response](01a_Signal_representation_and_system_response.pdf)
