@@ -1,9 +1,12 @@
-[00_Introduction](00_Introduction.pdf)
-[01a_Signal_representation_and_system_response](01a_Signal_representation_and_system_response.pdf)
-[01b_Time_domain_description_and_convolution](01b_Time_domain_description_and_convolution.pdf)
-[02_Transfer_function_and_system_characterisation](02_Transfer_function_and_system_characterisation.pdf)
-[03_Sampled_data_systems_and_the_z-transform](03_Sampled_data_systems_and_the_z-transform.pdf)
-[04_The_discrete_Fourier_transform](04_The_discrete_Fourier_transform.pdf)
-[05_Probability_and_random_variables](05_Probability_and_random_variables.pdf)
-[06_Linear_algebra_1](06_Linear_algebra_1.pdf)
-[07_Linear_algebra_2](07_Linear_algebra_2.pdf)
+
+| | |
+|:-|-|
+| 00  | [00_Introduction](00_Introduction.pdf)
+| 01a | [01a_Signal_representation_and_system_response](01a_Signal_representation_and_system_response.pdf)
+| 01b | [01b_Time_domain_description_and_convolution](01b_Time_domain_description_and_convolution.pdf)
+| 02  | [02_Transfer_function_and_system_characterisation](02_Transfer_function_and_system_characterisation.pdf)
+| 03  | [03_Sampled_data_systems_and_the_z-transform](03_Sampled_data_systems_and_the_z-transform.pdf)
+| 04  | [04_The_discrete_Fourier_transform](04_The_discrete_Fourier_transform.pdf)
+| 05  | [05_Probability_and_random_variables](05_Probability_and_random_variables.pdf)
+| 06  | [06_Linear_algebra_1](06_Linear_algebra_1.pdf)
+| 07  | [07_Linear_algebra_2](07_Linear_algebra_2.pdf)
