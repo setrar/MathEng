@@ -113,7 +113,7 @@ Now combine like terms:
 
 $= 4e^{-6t} + 16e^{-10t} + 16e^{-14t}$
 
-Thus, the expanded form of   $\left( 2e^{-3t} + 4e^{-7t} \right)^2$  ￼ is:
+Thus, the expanded form of $\left( 2e^{-3t} + 4e^{-7t} \right)^2$ is:
 
 $4e^{-6t} + 16e^{-10t} + 16e^{-14t}$
 
