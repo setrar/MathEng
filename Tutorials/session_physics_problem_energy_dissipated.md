@@ -69,27 +69,27 @@ $$
 
 Now substitute these values back into the expression for $E$:
 
-$
+$$
 E = \frac{4}{5} \cdot \frac{1}{6} + \frac{16}{5} \cdot \frac{1}{14} + \frac{16}{5} \cdot \frac{1}{10}
-$
+$$
 
 Simplifying each term:
 
-$
+$$
 E = \frac{4}{30} + \frac{16}{70} + \frac{16}{50}
-$
+$$
 
 Finding a common denominator:
 
-$
+$$
 E = \frac{28}{210} + \frac{48}{210} + \frac{67.2}{210}
-$
+$$
 
-$
+$$
 E = \frac{143.2}{210}
-$
+$$
 
-$
+$$
 E \approx 0.682 \, \text{Joules}
 $
 
