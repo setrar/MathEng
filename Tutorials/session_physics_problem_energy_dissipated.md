@@ -2,11 +2,11 @@
 ## Physics Problem: Total Energy Dissipated in a Resistor
 
 ### Problem:
-A voltage signal \(v(t)\) is connected across a 5 Ω resistor at \(t = 0\). If the voltage is defined by:
+A voltage signal $v(t)$ is connected across a 5 Ω resistor at $t = 0$. If the voltage is defined by:
 
-$
+$$
 v(t) = 2\exp(-3t) + 4\exp(-7t)
-$
+$$
 
 What is the total energy dissipated in the resistor?
 
@@ -28,7 +28,8 @@ $
 First, compute $v^2(t)$:
 
 $
-v^2(t) = \left( 2e^{-3t} + 4e^{-7t} ight)^2
+v^2(t) = \left( 2e^{-3t} + 4e^{-7t} 
+ight)^2
 $
 
 Expanding this:
@@ -52,7 +53,8 @@ $
 Substitute the expression for $P(t)$:
 
 $
-E = \int_0^\infty \left( rac{4e^{-6t}}{5} + rac{16e^{-14t}}{5} + rac{16e^{-10t}}{5} ight) dt
+E = \int_0^\infty \left( rac{4e^{-6t}}{5} + rac{16e^{-14t}}{5} + rac{16e^{-10t}}{5} 
+ight) dt
 $
 
 We can separate this into three integrals:
