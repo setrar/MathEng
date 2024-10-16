@@ -108,7 +108,7 @@ $= \left( 2e^{-3t} \right)\left( 2e^{-3t} \right) + \left( 2e^{-3t} \right)\left
 Simplify each term:
 
 $= 4e^{-6t} + 8e^{-10t} + 8e^{-10t} + 16e^{-14t}$
-￼
+
 Now combine like terms:
 
 $= 4e^{-6t} + 16e^{-10t} + 16e^{-14t}$
