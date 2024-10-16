@@ -28,8 +28,7 @@ $$
 First, compute $v^2(t)$:
 
 $$
-v^2(t) = \left( 2e^{-3t} + 4e^{-7t} 
-ight)^2
+v^2(t) = \left( 2e^{-3t} + 4e^{-7t} \right)^2
 $$
 
 Expanding this:
@@ -58,15 +57,15 @@ $$
 
 We can separate this into three integrals:
 
-$#
+$$
 E = \frac{4}{5} \int_0^\infty e^{-6t} \, dt + \frac{16}{5} \int_0^\infty e^{-14t} \, dt + \frac{16}{5} \int_0^\infty e^{-10t} \, dt
-$#
+$$
 
 The integral of $e^{-at}$ is $\frac{1}{a}$, so we compute each term:
 
-$#
+$$
 \int_0^\infty e^{-6t} \, dt = \frac{1}{6}, \quad \int_0^\infty e^{-14t} \, dt = \frac{1}{14}, \quad \int_0^\infty e^{-10t} \, dt = \frac{1}{10}
-$#
+$$
 
 Now substitute these values back into the expression for $E$:
 
