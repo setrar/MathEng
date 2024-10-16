@@ -90,7 +90,6 @@ E = \frac{143.2}{210}
 $$
 
 $$
-
 E \approx 0.682 \, \text{Joules}
 $$
 
