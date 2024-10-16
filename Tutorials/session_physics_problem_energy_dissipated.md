@@ -69,29 +69,29 @@ $$
 
 Now substitute these values back into the expression for $E$:
 
-$$
+$
 E = \frac{4}{5} \cdot \frac{1}{6} + \frac{16}{5} \cdot \frac{1}{14} + \frac{16}{5} \cdot \frac{1}{10}
-$$
+$
 
 Simplifying each term:
 
-$$
+$
 E = \frac{4}{30} + \frac{16}{70} + \frac{16}{50}
-$$
+$
 
 Finding a common denominator:
 
-$$
+$
 E = \frac{28}{210} + \frac{48}{210} + \frac{67.2}{210}
-$$
+$
 
-$$
+$
 E = \frac{143.2}{210}
-$$
+$
 
-$$
+$
 E \approx 0.682 \, \text{Joules}
-$$
+$
 
 Thus, the total energy dissipated in the resistor is approximately $0.682 \text{J}$.
 
@@ -99,31 +99,30 @@ To solve  $\left( 2e^{-3t} + 4e^{-7t} \right)^2$ ￼, we will expand the express
 
 Given:
 
-$$￼
+$
 \left( 2e^{-3t} + 4e^{-7t} \right)^2 = \left( 2e^{-3t} + 4e^{-7t} \right)\left( 2e^{-3t} + 4e^{-7t} \right)
-$$
+$
 
 Now distribute each term:
 
-$$￼
+$
 = \left( 2e^{-3t} \right)\left( 2e^{-3t} \right) + \left( 2e^{-3t} \right)\left( 4e^{-7t} \right) + \left( 4e^{-7t} \right)\left( 2e^{-3t} \right) + \left( 4e^{-7t} \right)\left( 4e^{-7t} \right)
-$$
+$
 
 Simplify each term:
 
-$$
+$
 = 4e^{-6t} + 8e^{-10t} + 8e^{-10t} + 16e^{-14t}
-$$
+$
 ￼
-
 Now combine like terms:
 
-$$
+$
 = 4e^{-6t} + 16e^{-10t} + 16e^{-14t}
-$$
+$
 
 Thus, the expanded form of   $\left( 2e^{-3t} + 4e^{-7t} \right)^2$  ￼ is:
 
-$$￼
+$
 4e^{-6t} + 16e^{-10t} + 16e^{-14t}
-$$
+$
