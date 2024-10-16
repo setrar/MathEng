@@ -93,4 +93,4 @@ $$
 E \approx 0.682 \, \text{Joules}
 $$
 
-Thus, the total energy dissipated in the resistor is approximately $0.682 \, 	ext{J}.
+Thus, the total energy dissipated in the resistor is approximately $0.682 \text{J}$.
