@@ -99,45 +99,21 @@ To solve  $\left( 2e^{-3t} + 4e^{-7t} \right)^2$ ￼, we will expand the express
 
 Given:
 
-$
-\left( 2e^{-3t} + 4e^{-7t} \right)^2 = \left( 2e^{-3t} + 4e^{-7t} \right)\left( 2e^{-3t} + 4e^{-7t} \right)
-$
+$\left( 2e^{-3t} + 4e^{-7t} \right)^2 = \left( 2e^{-3t} + 4e^{-7t} \right)\left( 2e^{-3t} + 4e^{-7t} \right)$
 
 Now distribute each term:
 
-$
-= \left( 2e^{-3t} \right)\left( 2e^{-3t} \right) + \left( 2e^{-3t} \right)\left( 4e^{-7t} \right) + \left( 4e^{-7t} \right)\left( 2e^{-3t} \right) + \left( 4e^{-7t} \right)\left( 4e^{-7t} \right)
-$
+$= \left( 2e^{-3t} \right)\left( 2e^{-3t} \right) + \left( 2e^{-3t} \right)\left( 4e^{-7t} \right) + \left( 4e^{-7t} \right)\left( 2e^{-3t} \right) + \left( 4e^{-7t} \right)\left( 4e^{-7t} \right)$
 
 Simplify each term:
 
-$
-= 4e^{-6t} + 8e^{-10t} + 8e^{-10t} + 16e^{-14t}
-$
+$= 4e^{-6t} + 8e^{-10t} + 8e^{-10t} + 16e^{-14t}$
 ￼
 Now combine like terms:
 
-$
-= 4e^{-6t} + 16e^{-10t} + 16e^{-14t}
-$
+$= 4e^{-6t} + 16e^{-10t} + 16e^{-14t}$
 
 Thus, the expanded form of   $\left( 2e^{-3t} + 4e^{-7t} \right)^2$  ￼ is:
 
-$
-4e^{-6t} + 16e^{-10t} + 16e^{-14t}
-$
+$4e^{-6t} + 16e^{-10t} + 16e^{-14t}$
 
-
-Great! I’ll make sure to provide both the formatted result and the raw LaTeX code from now on.
-
-For the previous example:
-
-Formatted result:
-
-￼
-
-Raw LaTeX code:
-
-4e^{-6t} + 16e^{-10t} + 16e^{-14t}
-
-Let me know if this format works for you!
