@@ -45,3 +45,6 @@ Im = imag # Imaginary Part Function to extract imaginary part from Complex Numbe
 
 |  = abs
 |₂ = norm
+
+# convert imaginary component from Matlab to Julia
+j = im
