@@ -4,6 +4,7 @@
 
 |  :hash:            |  Lectures                                      | :grey_question:    | :scroll: | &#x1F5E3; |
 |--------------------|------------------------------------------------|--------------------|------|-|
+| Lecture[00]        | Introduction                                   | [:white_check_mark:](00_Introduction.pdf) | 
 | Lecture[(01)](01)  | a - Signal representation and system response  | [:white_check_mark:](01/01a_Signal_representation_and_system_response.pdf) | [:scroll:](01/01a_Signal_representation_and_system_response.ipynb) |
 |                    | b - Time domain description and convolution    |
 | Lecture[(02)](02)  | Transfer function and system characterization  |
