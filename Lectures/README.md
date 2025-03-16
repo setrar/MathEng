@@ -13,3 +13,7 @@
 | Lecture[(05)](05)  | Probability and random variables
 | Lecture[(06)](06)  | Linear algebra 1
 | Lecture[(07)](07)  | Linear algebra 2
+
+# References
+
+- [ ] [What does the Laplace Transform really tell us? A visual explanation (plus applications)](https://www.youtube.com/watch?v=n2y7n6jw5d0)
