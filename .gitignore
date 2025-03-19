@@ -3,3 +3,8 @@
 .ipynb_checkpoints
 
 gr-temp
+
+*.aux
+*.log
+*.out
+*_files
