@@ -1158,108 +1158,101 @@ Models}}{4. Generalization to Nonlinear Models}}\label{generalization-to-nonline
 
 {[}8 points{]}
 
-    \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+    \(A = \begin{bmatrix} 1 & 1 & 1 & 1 \\ 2 & 1 & 4 & 3 \\ 3 & 4 & 1 & 2 \end{bmatrix}\)
 
-\subsubsection{\texorpdfstring{\textbf{1. Null Space
-(Kernel)}}{1. Null Space (Kernel)}}\label{null-space-kernel}
+Let's manually compute the \textbf{Reduced Row Echelon Form (RREF)} of
+the given matrix \(A\):
 
-\textbf{Definition}:\\
-The \textbf{null space} of a matrix \(A\), written as
-\(\text{Null}(A)\), is the set of \textbf{all vectors \(\mathbf{x}\)}
-such that:\\
-\(A\mathbf{x} = \mathbf{0}\) It represents all solutions to the
-homogeneous system \(A\mathbf{x} = \mathbf{0}\).
+\(\underbrace{\begin{bmatrix} 1 & 1 & 1 & 1 \\ 0 & -1 & 2 & 1 \\ 3 & 4 & 1 & 2 \end{bmatrix}}_{R_2 \leftarrow R_2 - 2R_1} \; \to\)
+\(\underbrace{\begin{bmatrix} 1 & 1 & 1 & 1 \\ 0 & -1 & 2 & 1 \\ 0 & 1 & -2 & -1 \end{bmatrix}}_{R_3 \leftarrow R_3 - 3R_1} \; \to\)
+\(\underbrace{\begin{bmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & -2 & -1 \\ 0 & 1 & -2 & -1 \end{bmatrix}}_{R_2 \leftarrow -R_2} \; \to\)
+\(\underbrace{\begin{bmatrix} 1 & 1 & 1 & 1 \\ 0 & 1 & -2 & -1 \\ 0 & 0 & 0 & 0 \end{bmatrix}}_{R_3 \leftarrow R_3 - R_2} \; \to\)
+\(\underbrace{\begin{bmatrix} 1 & 0 & 3 & 2 \\ 0 & 1 & -2 & -1 \\ 0 & 0 & 0 & 0 \end{bmatrix}}_{R_1 \leftarrow R_1 - R_2}\)
 
-\textbf{Key Idea}:\\
-- The null space is a \textbf{subspace} (closed under addition/scalar
-multiplication).\\
-- Its dimension is called the \textbf{nullity} of \(A\).
+\subsubsection{\texorpdfstring{\textbf{Final RREF:} (Reduced Row Echelon
+Form)}{Final RREF: (Reduced Row Echelon Form)}}\label{final-rref-reduced-row-echelon-form}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\(\begin{bmatrix} \underbrace{1}_{\text{pivot}} & 0 & 3 & 2 \\ 0 & \underbrace{1}_{\text{pivot}} & -2 & -1 \\ 0 & 0 & 0 & 0 \end{bmatrix}\)
+\(\begin{bmatrix}
+   x_1 \\
+   x_2 \\
+   x_3 \\
+   x_4
+\end{bmatrix} =
+\begin{bmatrix}
+   0 \\
+   0 \\
+   0
+\end{bmatrix}\)
 
-\subsubsection{\texorpdfstring{\textbf{2. Free
-Variables}}{2. Free Variables}}\label{free-variables}
+\(C(A) = \text{ column span of A }\left( \begin{bmatrix}
+                       1 \\
+                       2 \\
+                       3
+                    \end{bmatrix}
+                    \begin{bmatrix}
+                       1 \\
+                       1 \\
+                       4
+                    \end{bmatrix}
+                    \begin{bmatrix}
+                       1 \\
+                       4 \\
+                       1
+                    \end{bmatrix}
+                    \begin{bmatrix}
+                       1 \\
+                       3 \\
+                       2
+                    \end{bmatrix}
+                \right)\)
 
-\textbf{Definition}:\\
-\textbf{Free variables} are the variables in a system of equations that
-are \textbf{not constrained by pivots} (leading variables) after
-row-reducing \(A\). They can take \textbf{any value}, and other
-variables depend on them.
+The Null Space \(N(A) = N( rref(A) )\) is a set of all vectors that
+satisfy :
 
-\textbf{Key Idea}:\\
-- Free variables act as \textbf{parameters} to describe infinite
-solutions.\\
-- The number of free variables equals the \textbf{nullity} of \(A\).
+\(\begin{align}
+x_1 + 0 x_2 + 3 x_3 + 2 x_4 = 0 \\
+0 x_1 + x_2 - \underbrace{2 x_3}_{x_3\text{ free}} -   \underbrace{x_4}_{x_4\text{ free}} = 0
+\end{align}\)
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+let's solve the pivot entries
 
-\subsubsection{\texorpdfstring{\textbf{Example: Connecting Null Space
-and Free
-Variables}}{Example: Connecting Null Space and Free Variables}}\label{example-connecting-null-space-and-free-variables}
+\(\begin{align}
+x_1 &= - 3 x_3 - 2 x_4 \\
+x_2 &= 2 x_3 + x_4
+\end{align}\)
 
-Consider the matrix:\\
-\(A = \begin{bmatrix} 1 & 2 & -1 \\ 3 & 6 & -3 \end{bmatrix}\)
-\textbf{Step 1: Row-reduce \(A\)}\\
-\(\text{RREF}(A) = \begin{bmatrix} 1 & 2 & -1 \\ 0 & 0 & 0 \end{bmatrix}\)
-\textbf{Step 2: Identify Variables}\\
-- Pivot variable: \(x_1\) (corresponds to the leading 1).\\
-- Free variables: \(x_2\) and \(x_3\).
+\(\text{Col}_3 = 3 \begin{bmatrix}
+       1 \\
+       2 \\
+       3
+    \end{bmatrix} + (-2)
+    \begin{bmatrix}
+       1 \\
+       1 \\
+       4
+    \end{bmatrix}\)
+\(\text{Col}_4 = 2 \cdot \text{Col}_1 + (-1) \cdot \text{Col}_2\)
 
-\textbf{Step 3: Express Solutions}\\
-Let \(x_2 = s\) and \(x_3 = t\) (free variables). Then:\\
-\(x_1 = -2s + t\) The general solution (null space) is:\\
-\(\mathbf{x} = s \begin{bmatrix} -2 \\ 1 \\ 0 \end{bmatrix} + t \begin{bmatrix} 1 \\ 0 \\ 1 \end{bmatrix}\)
-\textbf{Null Space}: All linear combinations of these two vectors.\\
-\textbf{Nullity}: \(2\) (since there are 2 free variables).
+\(\left\{ \begin{bmatrix}
+       1 \\
+       2 \\
+       3
+    \end{bmatrix}
+    \begin{bmatrix}
+       1 \\
+       1 \\
+       4
+    \end{bmatrix}
+\right\} \text{ is the basis for C(A) }\)
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\subsubsection{\texorpdfstring{\textbf{Connection to Rank-Nullity
-Theorem}}{Connection to Rank-Nullity Theorem}}\label{connection-to-rank-nullity-theorem}
-
-For an \(m \times n\) matrix \(A\):\\
-\(\text{rank}(A) + \text{nullity}(A) = n\) - \textbf{Rank}: Number of
-pivots (here, \(\text{rank}(A) = 1\)).\\
-- \textbf{Nullity}: Number of free variables (here, \(2\)).\\
-- Check: \(1 + 2 = 3\), which matches \(n = 3\).
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\subsubsection{\texorpdfstring{\textbf{Why This
-Matters}}{Why This Matters}}\label{why-this-matters}
-
-\begin{itemize}
+    \begin{itemize}
 \tightlist
 \item
-  \textbf{Null Space}: Reveals ``hidden'' solutions to
-  \(A\mathbf{x} = \mathbf{0}\), useful in physics, engineering, and
-  optimization.\\
-\item
-  \textbf{Free Variables}: Simplify solving underdetermined systems
-  (e.g., in least-squares problems).
+  \href{https://www.youtube.com/watch?v=_uTAdf_AsfQ}{Null space and
+  column space basis \textbar{} Vectors and spaces \textbar{} Linear
+  Algebra \textbar{} Khan Academy}
 \end{itemize}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\subsubsection{\texorpdfstring{\textbf{Summary}}{Summary}}\label{summary}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Null Space} = All solutions to \(A\mathbf{x} = \mathbf{0}\).\\
-\item
-  \textbf{Free Variables} = Parameters that define the null space.\\
-\item
-  \textbf{Nullity} = Number of free variables = Dimension of the null
-  space.
-\end{itemize}
-
-    \begin{tcolorbox}[breakable, size=fbox, boxrule=1pt, pad at break*=1mm,colback=cellbackground, colframe=cellborder]
-\prompt{In}{incolor}{ }{\boxspacing}
-\begin{Verbatim}[commandchars=\\\{\}]
-
-\end{Verbatim}
-\end{tcolorbox}
 
 
     % Add a bibliography block to the postdoc
