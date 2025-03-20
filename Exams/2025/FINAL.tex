@@ -958,6 +958,61 @@ The function \(f(x) = A e^{-\lambda x}\) is widely used in modeling
 \textbf{decay, probability distributions, filtering, and damping} in
 multiple disciplines.
 
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+The rate parameter \(\lambda\) appears twice in the exponential
+probability density function (PDF):
+
+\(f(x) = \lambda e^{-\lambda x}, \quad x \geq 0\)
+
+for the following reasons:
+
+\subsubsection{\texorpdfstring{\textbf{1. Ensuring Proper
+Normalization}}{1. Ensuring Proper Normalization}}\label{ensuring-proper-normalization}
+
+A probability density function must satisfy:
+
+\(\int_0^{\infty} f(x) \,dx = 1\)
+
+If we assume the form \(f(x) = A e^{-\lambda x}\), we need to determine
+\(A\) such that the total probability is 1:
+
+\(\int_0^{\infty} A e^{-\lambda x} \,dx = 1\)
+
+Using the standard integral:
+
+\(\int_0^{\infty} e^{-\lambda x} \,dx = \frac{1}{\lambda}\)
+
+we solve for \(A\):
+
+\(A \cdot \frac{1}{\lambda} = 1\)
+
+which gives \(A = \lambda\). This ensures that the total probability
+sums to 1.
+
+\subsubsection{\texorpdfstring{\textbf{2. Rate Parameter Controls Both
+Scale and Decay
+Rate}}{2. Rate Parameter Controls Both Scale and Decay Rate}}\label{rate-parameter-controls-both-scale-and-decay-rate}
+
+\begin{itemize}
+\tightlist
+\item
+  The \textbf{\(e^{-\lambda x}\)} term describes the \textbf{exponential
+  decay} of probability.
+\item
+  The \textbf{\(\lambda\)} in front scales the function to ensure it
+  integrates to 1.
+\end{itemize}
+
+Physically, \(\lambda\) represents the \textbf{average rate} of
+occurrence of an event per unit time. The \textbf{mean} of an
+exponentially distributed random variable is:
+
+\(E[X] = \frac{1}{\lambda}\)
+
+So, if \(\lambda\) is \textbf{large}, events happen frequently (fast
+decay). If \(\lambda\) is \textbf{small}, events are rare (slow decay).
+
     \section{Linear Algebra 1}\label{linear-algebra-1}
 
 {[}4 points{]}
